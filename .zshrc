@@ -101,4 +101,4 @@ alias ls='ls -g --color=auto --group-directories-first'
 alias tmux='tmux -2'
 
 # TODO: This needs to be changed to something more consistent depending on my defined setup scripts
-eval `dircolors /root/.dirColors/dircolors-solarized/dircolors.256dark`
+eval `dircolors ~/.dircolors-solarized/dircolors.256dark`
