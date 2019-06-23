@@ -1,10 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# TODO: This needs to be changed to something more consistent depending on my defined setup scripts
-#		This is fine for Kali, but when deploying for regular systems this will error out.
+## Having this with a ~/ seems to work fine.
 # Path to your oh-my-zsh installation.
-  export ZSH=/root/.oh-my-zsh
+  export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -100,5 +99,4 @@ source $ZSH/oh-my-zsh.sh
 alias ls='ls -g --color=auto --group-directories-first'
 alias tmux='tmux -2'
 
-# TODO: This needs to be changed to something more consistent depending on my defined setup scripts
 eval `dircolors ~/.dircolors-solarized/dircolors.256dark`
